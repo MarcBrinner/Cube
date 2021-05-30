@@ -1,0 +1,1685 @@
+C:\Users\marc\AppData\Local\Programs\Python\Python38\python.exe C:/Users/Marc/Desktop/Cube/main.py
+2021-04-16 16:19:40.512211: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2021-04-16 16:19:42.520862: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-04-16 16:19:42.521801: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll
+2021-04-16 16:19:42.552321: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:07:00.0 name: GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.815GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2021-04-16 16:19:42.552504: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2021-04-16 16:19:42.558640: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2021-04-16 16:19:42.558744: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2021-04-16 16:19:42.562496: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cufft64_10.dll
+2021-04-16 16:19:42.563753: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library curand64_10.dll
+2021-04-16 16:19:42.571937: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusolver64_10.dll
+2021-04-16 16:19:42.574746: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusparse64_11.dll
+2021-04-16 16:19:42.575483: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2021-04-16 16:19:42.575635: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-04-16 16:19:42.575769: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+WARNING:tensorflow:From C:\Users\marc\AppData\Local\Programs\Python\Python38\lib\site-packages\tensorflow\python\keras\mixed_precision\loss_scale.py:56: DynamicLossScale.__init__ (from tensorflow.python.training.experimental.loss_scale) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.keras.mixed_precision.LossScaleOptimizer instead. LossScaleOptimizer now has all the functionality of DynamicLossScale
+2021-04-16 16:19:42.576940: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-04-16 16:19:42.578164: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:07:00.0 name: GeForce RTX 2060 SUPER computeCapability: 7.5
+coreClock: 1.815GHz coreCount: 34 deviceMemorySize: 8.00GiB deviceMemoryBandwidth: 417.29GiB/s
+2021-04-16 16:19:42.578371: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudart64_110.dll
+2021-04-16 16:19:42.578455: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2021-04-16 16:19:42.578540: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+2021-04-16 16:19:42.578625: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cufft64_10.dll
+2021-04-16 16:19:42.578710: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library curand64_10.dll
+2021-04-16 16:19:42.578794: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusolver64_10.dll
+2021-04-16 16:19:42.578880: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cusparse64_11.dll
+2021-04-16 16:19:42.578965: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cudnn64_8.dll
+2021-04-16 16:19:42.579077: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0
+2021-04-16 16:19:43.084578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-04-16 16:19:43.084681: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 
+2021-04-16 16:19:43.084739: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N 
+2021-04-16 16:19:43.084944: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6640 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2060 SUPER, pci bus id: 0000:07:00.0, compute capability: 7.5)
+2021-04-16 16:19:43.085650: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+WARNING:tensorflow:tf.keras.mixed_precision.experimental.LossScaleOptimizer is deprecated. Please use tf.keras.mixed_precision.LossScaleOptimizer instead. Note that the non-experimental LossScaleOptimizer does not take a DynamicLossScale but instead takes the dynamic configuration directly in the constructor. For example:
+  opt = tf.keras.mixed_precision.experimental.LossScaleOptimizer(opt)
+
+Model: "model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+inputs_one (InputLayer)         [(None, 48)]         0                                            
+__________________________________________________________________________________________________
+concat__const__numbers (Concat_ (None, 54)           0           inputs_one[0][0]                 
+__________________________________________________________________________________________________
+tf.one_hot (TFOpLambda)         (None, 54, 6)        0           concat__const__numbers[0][0]     
+__________________________________________________________________________________________________
+flatten (Flatten)               (None, 324)          0           tf.one_hot[0][0]                 
+__________________________________________________________________________________________________
+dense (Dense)                   (None, 5000)         1625000     flatten[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization (BatchNorma (None, 5000)         20000       dense[0][0]                      
+__________________________________________________________________________________________________
+dense_1 (Dense)                 (None, 1000)         5001000     batch_normalization[0][0]        
+__________________________________________________________________________________________________
+batch_normalization_1 (BatchNor (None, 1000)         4000        dense_1[0][0]                    
+__________________________________________________________________________________________________
+dense_2 (Dense)                 (None, 1000)         1001000     batch_normalization_1[0][0]      
+__________________________________________________________________________________________________
+batch_normalization_2 (BatchNor (None, 1000)         4000        dense_2[0][0]                    
+__________________________________________________________________________________________________
+dense_3 (Dense)                 (None, 1000)         1001000     batch_normalization_2[0][0]      
+__________________________________________________________________________________________________
+batch_normalization_3 (BatchNor (None, 1000)         4000        dense_3[0][0]                    
+__________________________________________________________________________________________________
+add (Add)                       (None, 1000)         0           batch_normalization_1[0][0]      
+                                                                 batch_normalization_3[0][0]      
+__________________________________________________________________________________________________
+dense_4 (Dense)                 (None, 1000)         1001000     add[0][0]                        
+__________________________________________________________________________________________________
+batch_normalization_4 (BatchNor (None, 1000)         4000        dense_4[0][0]                    
+__________________________________________________________________________________________________
+dense_5 (Dense)                 (None, 1000)         1001000     batch_normalization_4[0][0]      
+__________________________________________________________________________________________________
+batch_normalization_5 (BatchNor (None, 1000)         4000        dense_5[0][0]                    
+__________________________________________________________________________________________________
+add_1 (Add)                     (None, 1000)         0           add[0][0]                        
+                                                                 batch_normalization_5[0][0]      
+__________________________________________________________________________________________________
+dense_6 (Dense)                 (None, 1000)         1001000     add_1[0][0]                      
+__________________________________________________________________________________________________
+batch_normalization_6 (BatchNor (None, 1000)         4000        dense_6[0][0]                    
+__________________________________________________________________________________________________
+dense_7 (Dense)                 (None, 1000)         1001000     batch_normalization_6[0][0]      
+__________________________________________________________________________________________________
+batch_normalization_7 (BatchNor (None, 1000)         4000        dense_7[0][0]                    
+__________________________________________________________________________________________________
+add_2 (Add)                     (None, 1000)         0           add_1[0][0]                      
+                                                                 batch_normalization_7[0][0]      
+__________________________________________________________________________________________________
+dense_8 (Dense)                 (None, 1000)         1001000     add_2[0][0]                      
+__________________________________________________________________________________________________
+batch_normalization_8 (BatchNor (None, 1000)         4000        dense_8[0][0]                    
+__________________________________________________________________________________________________
+dense_9 (Dense)                 (None, 1000)         1001000     batch_normalization_8[0][0]      
+__________________________________________________________________________________________________
+batch_normalization_9 (BatchNor (None, 1000)         4000        dense_9[0][0]                    
+__________________________________________________________________________________________________
+add_3 (Add)                     (None, 1000)         0           add_2[0][0]                      
+                                                                 batch_normalization_9[0][0]      
+__________________________________________________________________________________________________
+dense_10 (Dense)                (None, 1)            1001        add_3[0][0]                      
+==================================================================================================
+Total params: 14,691,001
+Trainable params: 14,663,001
+Non-trainable params: 28,000
+__________________________________________________________________________________________________
+Weights loaded successfully!
+0
+Optimal solution: 21
+Scramble: R' D' B' L' U L' D' F L F' U F D B' F' L U L' F' D U
+2021-04-16 16:19:44.037404: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2021-04-16 16:19:44.328914: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublas64_11.dll
+2021-04-16 16:19:44.761969: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library cublasLt64_11.dll
+Current movecount: 1   Predicted moves left: 15.49
+Current movecount: 2   Predicted moves left: 14.72
+Current movecount: 3   Predicted moves left: 12.69
+Current movecount: 4   Predicted moves left: 12.11
+Current movecount: 5   Predicted moves left: 10.54
+Current movecount: 6   Predicted moves left: 9.93
+Current movecount: 7   Predicted moves left: 9.0
+Current movecount: 8   Predicted moves left: 8.05
+Current movecount: 9   Predicted moves left: 7.664
+Current movecount: 10   Predicted moves left: 7.67
+Current movecount: 11   Predicted moves left: 7.28
+Current movecount: 12   Predicted moves left: 6.883
+Current movecount: 13   Predicted moves left: 6.227
+Current movecount: 14   Predicted moves left: 6.227
+Current movecount: 15   Predicted moves left: 5.85
+Current movecount: 16   Predicted moves left: 5.96
+Current movecount: 17   Predicted moves left: 5.85
+Current movecount: 18   Predicted moves left: 5.633
+Current movecount: 19   Predicted moves left: 5.062
+Current movecount: 20   Predicted moves left: 4.805
+Current movecount: 21   Predicted moves left: 3.885
+Current movecount: 22   Predicted moves left: 2.924
+Current movecount: 23   Predicted moves left: 1.938
+Current movecount: 24   Predicted moves left: 1.025
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: D R' B D' F D' D' R' B U F' R R L B D L' B' D' B D L D' B' R'
+
+
+1
+Optimal solution: 20
+Scramble: B' L D L' F D' B L U B' D L F' R' U' F R' B' D' B
+Current movecount: 1   Predicted moves left: 16.6
+Current movecount: 2   Predicted moves left: 15.36
+Current movecount: 3   Predicted moves left: 14.44
+Current movecount: 4   Predicted moves left: 11.336
+Current movecount: 5   Predicted moves left: 11.14
+Current movecount: 6   Predicted moves left: 9.87
+Current movecount: 7   Predicted moves left: 9.07
+Current movecount: 8   Predicted moves left: 7.453
+Current movecount: 9   Predicted moves left: 8.25
+Current movecount: 10   Predicted moves left: 7.453
+Current movecount: 11   Predicted moves left: 7.71
+Current movecount: 12   Predicted moves left: 7.258
+Current movecount: 13   Predicted moves left: 7.04
+Current movecount: 14   Predicted moves left: 6.477
+Current movecount: 15   Predicted moves left: 6.22
+Current movecount: 16   Predicted moves left: 6.195
+Current movecount: 17   Predicted moves left: 6.22
+Current movecount: 18   Predicted moves left: 5.742
+Current movecount: 19   Predicted moves left: 5.21
+Current movecount: 20   Predicted moves left: 5.164
+Current movecount: 21   Predicted moves left: 5.195
+Current movecount: 22   Predicted moves left: 4.766
+Current movecount: 23   Predicted moves left: 4.266
+Current movecount: 24   Predicted moves left: 3.791
+Current movecount: 25   Predicted moves left: 2.973
+Current movecount: 26   Predicted moves left: 3.523
+Current movecount: 27   Predicted moves left: 2.791
+Current movecount: 28   Predicted moves left: 1.943
+Current movecount: 29   Predicted moves left: 0.9956
+Current movecount: 30   Predicted moves left: 0.08203
+Solutions: R B' R L B D' D' R' U B' F' R F' U' B F U' F' U L D R L' U L U' R' U' D' U'
+
+
+2
+Optimal solution: 21
+Scramble: F L F' L D' U R B' D U' F' F' L' B U R' D' R U' R' R'
+Current movecount: 1   Predicted moves left: 14.914
+Current movecount: 2   Predicted moves left: 14.67
+Current movecount: 3   Predicted moves left: 12.58
+Current movecount: 4   Predicted moves left: 11.5
+Current movecount: 5   Predicted moves left: 10.39
+Current movecount: 6   Predicted moves left: 9.9
+Current movecount: 7   Predicted moves left: 9.35
+Current movecount: 8   Predicted moves left: 8.305
+Current movecount: 9   Predicted moves left: 7.883
+Current movecount: 10   Predicted moves left: 7.766
+Current movecount: 11   Predicted moves left: 7.492
+Current movecount: 12   Predicted moves left: 6.547
+Current movecount: 13   Predicted moves left: 6.58
+Current movecount: 14   Predicted moves left: 5.656
+Current movecount: 15   Predicted moves left: 4.555
+Current movecount: 16   Predicted moves left: 4.39
+Current movecount: 17   Predicted moves left: 4.555
+Current movecount: 18   Predicted moves left: 3.79
+Current movecount: 19   Predicted moves left: 4.008
+Current movecount: 20   Predicted moves left: 3.79
+Current movecount: 21   Predicted moves left: 4.008
+Current movecount: 22   Predicted moves left: 3.79
+Current movecount: 23   Predicted moves left: 3.332
+Current movecount: 24   Predicted moves left: 3.424
+Current movecount: 25   Predicted moves left: 3.24
+Current movecount: 26   Predicted moves left: 2.973
+Current movecount: 27   Predicted moves left: 3.24
+Current movecount: 28   Predicted moves left: 2.973
+Current movecount: 29   Predicted moves left: 3.24
+Current movecount: 30   Predicted moves left: 3.428
+Current movecount: 31   Predicted moves left: 3.312
+Current movecount: 32   Predicted moves left: 2.973
+Current movecount: 33   Predicted moves left: 3.312
+Current movecount: 34   Predicted moves left: 3.256
+Current movecount: 35   Predicted moves left: 1.954
+Current movecount: 36   Predicted moves left: 3.256
+Current movecount: 37   Predicted moves left: 1.954
+Current movecount: 38   Predicted moves left: 3.508
+Current movecount: 39   Predicted moves left: 1.954
+Current movecount: 40   Predicted moves left: 3.242
+Current movecount: 41   Predicted moves left: 3.07
+Current movecount: 42   Predicted moves left: 3.018
+Current movecount: 43   Predicted moves left: 2.016
+Current movecount: 44   Predicted moves left: 1.094
+Current movecount: 45   Predicted moves left: 0.08203
+Solutions: D B' B' U' R F U' D' B' D U' F L' L' D' R' D B' L' D L B D R R F R' D' R' D R B' F' D' D' B D B' D' D' F D' B D F'
+
+
+3
+Optimal solution: 20
+Scramble: D F D' D' L D' L B' L' F' F' L R F U' F' D' R' R' D'
+Current movecount: 1   Predicted moves left: 13.96
+Current movecount: 2   Predicted moves left: 13.13
+Current movecount: 3   Predicted moves left: 12.3
+Current movecount: 4   Predicted moves left: 10.07
+Current movecount: 5   Predicted moves left: 8.84
+Current movecount: 6   Predicted moves left: 8.76
+Current movecount: 7   Predicted moves left: 8.66
+Current movecount: 8   Predicted moves left: 7.688
+Current movecount: 9   Predicted moves left: 8.08
+Current movecount: 10   Predicted moves left: 7.562
+Current movecount: 11   Predicted moves left: 7.42
+Current movecount: 12   Predicted moves left: 7.08
+Current movecount: 13   Predicted moves left: 6.695
+Current movecount: 14   Predicted moves left: 6.53
+Current movecount: 15   Predicted moves left: 6.094
+Current movecount: 16   Predicted moves left: 5.258
+Current movecount: 17   Predicted moves left: 5.258
+Current movecount: 18   Predicted moves left: 3.568
+Current movecount: 19   Predicted moves left: 2.865
+Current movecount: 20   Predicted moves left: 1.956
+Current movecount: 21   Predicted moves left: 0.9976
+Current movecount: 22   Predicted moves left: 0.08203
+Solutions: R L B D' F' U' F' L' D U B U' L' F U B D L' D' L' D L
+
+
+4
+Optimal solution: 21
+Scramble: F D B' D' R' F R D L B' F' L F' D B' R B F U' B R'
+Current movecount: 1   Predicted moves left: 15.84
+Current movecount: 2   Predicted moves left: 14.92
+Current movecount: 3   Predicted moves left: 13.69
+Current movecount: 4   Predicted moves left: 12.12
+Current movecount: 5   Predicted moves left: 10.625
+Current movecount: 6   Predicted moves left: 9.914
+Current movecount: 7   Predicted moves left: 8.74
+Current movecount: 8   Predicted moves left: 8.266
+Current movecount: 9   Predicted moves left: 7.555
+Current movecount: 10   Predicted moves left: 7.688
+Current movecount: 11   Predicted moves left: 7.555
+Current movecount: 12   Predicted moves left: 7.227
+Current movecount: 13   Predicted moves left: 6.203
+Current movecount: 14   Predicted moves left: 6.805
+Current movecount: 15   Predicted moves left: 6.11
+Current movecount: 16   Predicted moves left: 5.453
+Current movecount: 17   Predicted moves left: 5.695
+Current movecount: 18   Predicted moves left: 5.453
+Current movecount: 19   Predicted moves left: 5.477
+Current movecount: 20   Predicted moves left: 4.83
+Current movecount: 21   Predicted moves left: 3.266
+Current movecount: 22   Predicted moves left: 2.895
+Current movecount: 23   Predicted moves left: 2.006
+Current movecount: 24   Predicted moves left: 0.998
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: D' B L D' B U R U' R R L' F' D' F' R' F F R D R' U' R D' F' U'
+
+
+5
+Optimal solution: 21
+Scramble: F D' F' D U B L' B U F' D B R' U' B' L D' D' U' L' U'
+Current movecount: 1   Predicted moves left: 16.48
+Current movecount: 2   Predicted moves left: 15.63
+Current movecount: 3   Predicted moves left: 13.37
+Current movecount: 4   Predicted moves left: 13.61
+Current movecount: 5   Predicted moves left: 10.805
+Current movecount: 6   Predicted moves left: 10.5
+Current movecount: 7   Predicted moves left: 9.375
+Current movecount: 8   Predicted moves left: 8.67
+Current movecount: 9   Predicted moves left: 7.984
+Current movecount: 10   Predicted moves left: 8.17
+Current movecount: 11   Predicted moves left: 7.18
+Current movecount: 12   Predicted moves left: 6.773
+Current movecount: 13   Predicted moves left: 7.18
+Current movecount: 14   Predicted moves left: 6.773
+Current movecount: 15   Predicted moves left: 6.46
+Current movecount: 16   Predicted moves left: 5.938
+Current movecount: 17   Predicted moves left: 5.453
+Current movecount: 18   Predicted moves left: 5.242
+Current movecount: 19   Predicted moves left: 4.914
+Current movecount: 20   Predicted moves left: 4.12
+Current movecount: 21   Predicted moves left: 3.895
+Current movecount: 22   Predicted moves left: 2.979
+Current movecount: 23   Predicted moves left: 1.982
+Current movecount: 24   Predicted moves left: 0.9976
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: L B L B' D' R U' D' F' B U' B' F L' F' L B' L' L' F U L L U B'
+
+
+6
+Optimal solution: 21
+Scramble: R D F' L R' B' L' D' U L' L' R' U F D' R' R' B' R' R' U'
+Current movecount: 1   Predicted moves left: 14.92
+Current movecount: 2   Predicted moves left: 12.85
+Current movecount: 3   Predicted moves left: 11.42
+Current movecount: 4   Predicted moves left: 11.01
+Current movecount: 5   Predicted moves left: 9.984
+Current movecount: 6   Predicted moves left: 8.914
+Current movecount: 7   Predicted moves left: 8.38
+Current movecount: 8   Predicted moves left: 8.19
+Current movecount: 9   Predicted moves left: 7.805
+Current movecount: 10   Predicted moves left: 7.6
+Current movecount: 11   Predicted moves left: 7.04
+Current movecount: 12   Predicted moves left: 6.547
+Current movecount: 13   Predicted moves left: 6.15
+Current movecount: 14   Predicted moves left: 5.695
+Current movecount: 15   Predicted moves left: 6.11
+Current movecount: 16   Predicted moves left: 5.312
+Current movecount: 17   Predicted moves left: 5.438
+Current movecount: 18   Predicted moves left: 4.113
+Current movecount: 19   Predicted moves left: 3.854
+Current movecount: 20   Predicted moves left: 2.979
+Current movecount: 21   Predicted moves left: 1.986
+Current movecount: 22   Predicted moves left: 0.998
+Current movecount: 23   Predicted moves left: 0.08203
+Solutions: B' R D B' L' F' U' U' F R' U L F' F' U' R D L U D' R D U'
+
+
+7
+Optimal solution: 20
+Scramble: R F' D F D' R B D' F U' B L' F R B D' D' L' U' U'
+Current movecount: 1   Predicted moves left: 14.26
+Current movecount: 2   Predicted moves left: 13.086
+Current movecount: 3   Predicted moves left: 10.42
+Current movecount: 4   Predicted moves left: 9.02
+Current movecount: 5   Predicted moves left: 9.59
+Current movecount: 6   Predicted moves left: 8.77
+Current movecount: 7   Predicted moves left: 8.4
+Current movecount: 8   Predicted moves left: 7.758
+Current movecount: 9   Predicted moves left: 6.836
+Current movecount: 10   Predicted moves left: 7.062
+Current movecount: 11   Predicted moves left: 6.836
+Current movecount: 12   Predicted moves left: 6.992
+Current movecount: 13   Predicted moves left: 6.695
+Current movecount: 14   Predicted moves left: 6.71
+Current movecount: 15   Predicted moves left: 6.65
+Current movecount: 16   Predicted moves left: 6.203
+Current movecount: 17   Predicted moves left: 5.93
+Current movecount: 18   Predicted moves left: 5.61
+Current movecount: 19   Predicted moves left: 5.22
+Current movecount: 20   Predicted moves left: 5.094
+Current movecount: 21   Predicted moves left: 4.195
+Current movecount: 22   Predicted moves left: 3.672
+Current movecount: 23   Predicted moves left: 2.967
+Current movecount: 24   Predicted moves left: 1.981
+Current movecount: 25   Predicted moves left: 0.998
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: D R B' U' B U' L F' R' B F U' D F' U R U U R L' B' U B R' U F
+
+
+8
+Optimal solution: 21
+Scramble: R' B' R' F' F' U' L' D' R D F R U' B' D' R U B' D' R U'
+Current movecount: 1   Predicted moves left: 14.97
+Current movecount: 2   Predicted moves left: 14.516
+Current movecount: 3   Predicted moves left: 12.78
+Current movecount: 4   Predicted moves left: 11.695
+Current movecount: 5   Predicted moves left: 9.766
+Current movecount: 6   Predicted moves left: 9.28
+Current movecount: 7   Predicted moves left: 8.68
+Current movecount: 8   Predicted moves left: 8.445
+Current movecount: 9   Predicted moves left: 8.234
+Current movecount: 10   Predicted moves left: 7.133
+Current movecount: 11   Predicted moves left: 6.992
+Current movecount: 12   Predicted moves left: 6.92
+Current movecount: 13   Predicted moves left: 6.266
+Current movecount: 14   Predicted moves left: 6.43
+Current movecount: 15   Predicted moves left: 6.047
+Current movecount: 16   Predicted moves left: 4.875
+Current movecount: 17   Predicted moves left: 5.164
+Current movecount: 18   Predicted moves left: 4.477
+Current movecount: 19   Predicted moves left: 3.654
+Current movecount: 20   Predicted moves left: 2.795
+Current movecount: 21   Predicted moves left: 1.993
+Current movecount: 22   Predicted moves left: 1.035
+Current movecount: 23   Predicted moves left: 0.08203
+Solutions: D R' L' D B B R F D' L' F' L L B D' F B D B U R U' B'
+
+
+9
+Optimal solution: 21
+Scramble: R B D' B D' F D B' R F' R' F' U B F' D L F D' F R'
+Current movecount: 1   Predicted moves left: 15.56
+Current movecount: 2   Predicted moves left: 15.01
+Current movecount: 3   Predicted moves left: 12.33
+Current movecount: 4   Predicted moves left: 12.484
+Current movecount: 5   Predicted moves left: 11.36
+Current movecount: 6   Predicted moves left: 10.23
+Current movecount: 7   Predicted moves left: 9.54
+Current movecount: 8   Predicted moves left: 8.586
+Current movecount: 9   Predicted moves left: 8.805
+Current movecount: 10   Predicted moves left: 7.742
+Current movecount: 11   Predicted moves left: 6.92
+Current movecount: 12   Predicted moves left: 6.53
+Current movecount: 13   Predicted moves left: 5.86
+Current movecount: 14   Predicted moves left: 5.984
+Current movecount: 15   Predicted moves left: 5.86
+Current movecount: 16   Predicted moves left: 5.625
+Current movecount: 17   Predicted moves left: 5.46
+Current movecount: 18   Predicted moves left: 4.72
+Current movecount: 19   Predicted moves left: 4.742
+Current movecount: 20   Predicted moves left: 4.35
+Current movecount: 21   Predicted moves left: 3.648
+Current movecount: 22   Predicted moves left: 2.9
+Current movecount: 23   Predicted moves left: 1.982
+Current movecount: 24   Predicted moves left: 0.998
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: F' B' B' R D' L D' L' B' U R D U L B' L' B U' D R U L' R' F' U
+
+
+10
+Optimal solution: 21
+Scramble: R' U' B R' D L' F' D U' R' R' U L D' D' L' D U' F U' U'
+Current movecount: 1   Predicted moves left: 14.41
+Current movecount: 2   Predicted moves left: 13.51
+Current movecount: 3   Predicted moves left: 11.57
+Current movecount: 4   Predicted moves left: 11.56
+Current movecount: 5   Predicted moves left: 9.42
+Current movecount: 6   Predicted moves left: 8.41
+Current movecount: 7   Predicted moves left: 8.37
+Current movecount: 8   Predicted moves left: 8.01
+Current movecount: 9   Predicted moves left: 7.727
+Current movecount: 10   Predicted moves left: 7.453
+Current movecount: 11   Predicted moves left: 7.42
+Current movecount: 12   Predicted moves left: 6.758
+Current movecount: 13   Predicted moves left: 6.812
+Current movecount: 14   Predicted moves left: 6.28
+Current movecount: 15   Predicted moves left: 5.992
+Current movecount: 16   Predicted moves left: 5.43
+Current movecount: 17   Predicted moves left: 4.383
+Current movecount: 18   Predicted moves left: 4.67
+Current movecount: 19   Predicted moves left: 3.898
+Current movecount: 20   Predicted moves left: 3.15
+Current movecount: 21   Predicted moves left: 2.008
+Current movecount: 22   Predicted moves left: 1.006
+Current movecount: 23   Predicted moves left: 0.08203
+Solutions: U' F' R' F R' D' F R U' R' D' F L' F' D F' R R B R' F R D'
+
+
+11
+Optimal solution: 19
+Scramble: L F' F' L' D' D' L D' R F L' D' B F U F' L' B D
+Current movecount: 1   Predicted moves left: 14.55
+Current movecount: 2   Predicted moves left: 13.53
+Current movecount: 3   Predicted moves left: 12.16
+Current movecount: 4   Predicted moves left: 10.445
+Current movecount: 5   Predicted moves left: 9.54
+Current movecount: 6   Predicted moves left: 9.34
+Current movecount: 7   Predicted moves left: 8.6
+Current movecount: 8   Predicted moves left: 8.086
+Current movecount: 9   Predicted moves left: 7.79
+Current movecount: 10   Predicted moves left: 7.15
+Current movecount: 11   Predicted moves left: 6.914
+Current movecount: 12   Predicted moves left: 6.438
+Current movecount: 13   Predicted moves left: 6.5
+Current movecount: 14   Predicted moves left: 5.18
+Current movecount: 15   Predicted moves left: 4.39
+Current movecount: 16   Predicted moves left: 4.625
+Current movecount: 17   Predicted moves left: 3.959
+Current movecount: 18   Predicted moves left: 2.861
+Current movecount: 19   Predicted moves left: 2.002
+Current movecount: 20   Predicted moves left: 1.025
+Current movecount: 21   Predicted moves left: 0.08203
+Solutions: F U' L' F B' U' R B' U R' U B F' U F U' R' F' R B' R'
+
+
+12
+Optimal solution: 22
+Scramble: U L' B D' L D' R' D' L B L' F' L U' R U L R' D F' U' U'
+Current movecount: 1   Predicted moves left: 15.25
+Current movecount: 2   Predicted moves left: 14.31
+Current movecount: 3   Predicted moves left: 13.42
+Current movecount: 4   Predicted moves left: 11.81
+Current movecount: 5   Predicted moves left: 11.29
+Current movecount: 6   Predicted moves left: 10.51
+Current movecount: 7   Predicted moves left: 9.15
+Current movecount: 8   Predicted moves left: 8.58
+Current movecount: 9   Predicted moves left: 8.125
+Current movecount: 10   Predicted moves left: 7.625
+Current movecount: 11   Predicted moves left: 7.75
+Current movecount: 12   Predicted moves left: 7.312
+Current movecount: 13   Predicted moves left: 6.844
+Current movecount: 14   Predicted moves left: 6.492
+Current movecount: 15   Predicted moves left: 6.664
+Current movecount: 16   Predicted moves left: 5.977
+Current movecount: 17   Predicted moves left: 6.258
+Current movecount: 18   Predicted moves left: 5.977
+Current movecount: 19   Predicted moves left: 5.312
+Current movecount: 20   Predicted moves left: 5.797
+Current movecount: 21   Predicted moves left: 5.07
+Current movecount: 22   Predicted moves left: 3.941
+Current movecount: 23   Predicted moves left: 2.912
+Current movecount: 24   Predicted moves left: 1.986
+Current movecount: 25   Predicted moves left: 1.025
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: D F B U B U' R F R B R F U' B' L F U F' B L' F' R' L B' L' R'
+
+
+13
+Optimal solution: 20
+Scramble: F' D' L U L' D L' F U F' L B' U' L F D U' R' D' U'
+Current movecount: 1   Predicted moves left: 14.14
+Current movecount: 2   Predicted moves left: 12.68
+Current movecount: 3   Predicted moves left: 10.74
+Current movecount: 4   Predicted moves left: 9.97
+Current movecount: 5   Predicted moves left: 9.5
+Current movecount: 6   Predicted moves left: 8.56
+Current movecount: 7   Predicted moves left: 7.68
+Current movecount: 8   Predicted moves left: 8.18
+Current movecount: 9   Predicted moves left: 7.656
+Current movecount: 10   Predicted moves left: 7.406
+Current movecount: 11   Predicted moves left: 7.07
+Current movecount: 12   Predicted moves left: 6.17
+Current movecount: 13   Predicted moves left: 6.242
+Current movecount: 14   Predicted moves left: 5.117
+Current movecount: 15   Predicted moves left: 4.67
+Current movecount: 16   Predicted moves left: 4.016
+Current movecount: 17   Predicted moves left: 3.03
+Current movecount: 18   Predicted moves left: 2.078
+Current movecount: 19   Predicted moves left: 1.07
+Current movecount: 20   Predicted moves left: 0.08203
+Solutions: U D R D' U F' L' U B L' F U' F' L D' L U' L' D F
+
+
+14
+Optimal solution: 22
+Scramble: L' U' B' D' F' F' D' R U F' L D' D' L B' L' F R' R' F' U' U'
+Current movecount: 1   Predicted moves left: 15.914
+Current movecount: 2   Predicted moves left: 14.734
+Current movecount: 3   Predicted moves left: 13.95
+Current movecount: 4   Predicted moves left: 11.84
+Current movecount: 5   Predicted moves left: 10.15
+Current movecount: 6   Predicted moves left: 9.62
+Current movecount: 7   Predicted moves left: 9.1
+Current movecount: 8   Predicted moves left: 8.4
+Current movecount: 9   Predicted moves left: 7.42
+Current movecount: 10   Predicted moves left: 7.133
+Current movecount: 11   Predicted moves left: 6.945
+Current movecount: 12   Predicted moves left: 6.523
+Current movecount: 13   Predicted moves left: 5.96
+Current movecount: 14   Predicted moves left: 5.594
+Current movecount: 15   Predicted moves left: 5.85
+Current movecount: 16   Predicted moves left: 5.594
+Current movecount: 17   Predicted moves left: 5.312
+Current movecount: 18   Predicted moves left: 5.156
+Current movecount: 19   Predicted moves left: 4.79
+Current movecount: 20   Predicted moves left: 4.06
+Current movecount: 21   Predicted moves left: 2.914
+Current movecount: 22   Predicted moves left: 2.008
+Current movecount: 23   Predicted moves left: 0.9976
+Current movecount: 24   Predicted moves left: 0.08203
+Solutions: D U' R' D L D L' B' L' U L U L' R B U' F U F' B' D L' F' L
+
+
+15
+Optimal solution: 20
+Scramble: F' U' B F U L F L' D L' D R' B L F' D R U' B' U'
+Current movecount: 1   Predicted moves left: 13.945
+Current movecount: 2   Predicted moves left: 14.086
+Current movecount: 3   Predicted moves left: 11.46
+Current movecount: 4   Predicted moves left: 10.445
+Current movecount: 5   Predicted moves left: 10.15
+Current movecount: 6   Predicted moves left: 8.74
+Current movecount: 7   Predicted moves left: 8.05
+Current movecount: 8   Predicted moves left: 8.19
+Current movecount: 9   Predicted moves left: 8.04
+Current movecount: 10   Predicted moves left: 7.305
+Current movecount: 11   Predicted moves left: 7.555
+Current movecount: 12   Predicted moves left: 6.836
+Current movecount: 13   Predicted moves left: 6.32
+Current movecount: 14   Predicted moves left: 6.35
+Current movecount: 15   Predicted moves left: 6.32
+Current movecount: 16   Predicted moves left: 6.35
+Current movecount: 17   Predicted moves left: 5.54
+Current movecount: 18   Predicted moves left: 5.508
+Current movecount: 19   Predicted moves left: 5.133
+Current movecount: 20   Predicted moves left: 4.93
+Current movecount: 21   Predicted moves left: 4.68
+Current movecount: 22   Predicted moves left: 3.865
+Current movecount: 23   Predicted moves left: 2.885
+Current movecount: 24   Predicted moves left: 1.972
+Current movecount: 25   Predicted moves left: 0.9976
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: F' L D' F' U U L' L' F' B L' U D L' L' D' B' L U' L' U F U' L D U
+
+
+16
+Optimal solution: 20
+Scramble: R F' L' D' U L' U L' B' L' F L' L' B' D B D' U B L
+Current movecount: 1   Predicted moves left: 15.9
+Current movecount: 2   Predicted moves left: 14.664
+Current movecount: 3   Predicted moves left: 13.46
+Current movecount: 4   Predicted moves left: 12.5
+Current movecount: 5   Predicted moves left: 11.42
+Current movecount: 6   Predicted moves left: 9.59
+Current movecount: 7   Predicted moves left: 9.31
+Current movecount: 8   Predicted moves left: 8.234
+Current movecount: 9   Predicted moves left: 7.992
+Current movecount: 10   Predicted moves left: 7.938
+Current movecount: 11   Predicted moves left: 7.664
+Current movecount: 12   Predicted moves left: 7.46
+Current movecount: 13   Predicted moves left: 7.08
+Current movecount: 14   Predicted moves left: 6.96
+Current movecount: 15   Predicted moves left: 6.734
+Current movecount: 16   Predicted moves left: 6.43
+Current movecount: 17   Predicted moves left: 6.29
+Current movecount: 18   Predicted moves left: 5.96
+Current movecount: 19   Predicted moves left: 4.562
+Current movecount: 20   Predicted moves left: 4.71
+Current movecount: 21   Predicted moves left: 4.055
+Current movecount: 22   Predicted moves left: 3.754
+Current movecount: 23   Predicted moves left: 3.023
+Current movecount: 24   Predicted moves left: 2.016
+Current movecount: 25   Predicted moves left: 1.058
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: F' R' U' L D' B F' D R' F' U L L D' B' L U R' R' F' U L' U' L F R
+
+
+17
+Optimal solution: 21
+Scramble: L B F R' D' L' D' B R' B' R' D' B' B' L D' D' F R' R' U'
+Current movecount: 1   Predicted moves left: 15.914
+Current movecount: 2   Predicted moves left: 14.98
+Current movecount: 3   Predicted moves left: 13.44
+Current movecount: 4   Predicted moves left: 10.92
+Current movecount: 5   Predicted moves left: 10.43
+Current movecount: 6   Predicted moves left: 9.586
+Current movecount: 7   Predicted moves left: 8.914
+Current movecount: 8   Predicted moves left: 8.484
+Current movecount: 9   Predicted moves left: 8.14
+Current movecount: 10   Predicted moves left: 7.9
+Current movecount: 11   Predicted moves left: 7.414
+Current movecount: 12   Predicted moves left: 6.734
+Current movecount: 13   Predicted moves left: 6.758
+Current movecount: 14   Predicted moves left: 6.523
+Current movecount: 15   Predicted moves left: 6.133
+Current movecount: 16   Predicted moves left: 6.1
+Current movecount: 17   Predicted moves left: 5.766
+Current movecount: 18   Predicted moves left: 4.43
+Current movecount: 19   Predicted moves left: 3.957
+Current movecount: 20   Predicted moves left: 3.54
+Current movecount: 21   Predicted moves left: 3.07
+Current movecount: 22   Predicted moves left: 3.24
+Current movecount: 23   Predicted moves left: 3.07
+Current movecount: 24   Predicted moves left: 2.865
+Current movecount: 25   Predicted moves left: 1.954
+Current movecount: 26   Predicted moves left: 0.9976
+Current movecount: 27   Predicted moves left: 0.08203
+Solutions: R' B' D L D' B U' F' D' R F' D F U' D R' L' F' D D R D' R' D' F L F
+
+
+18
+Optimal solution: 21
+Scramble: R B L' B F D U F D' L' B' D B R D B' R B' D U' F
+Current movecount: 1   Predicted moves left: 16.2
+Current movecount: 2   Predicted moves left: 15.195
+Current movecount: 3   Predicted moves left: 14.26
+Current movecount: 4   Predicted moves left: 11.95
+Current movecount: 5   Predicted moves left: 10.625
+Current movecount: 6   Predicted moves left: 9.71
+Current movecount: 7   Predicted moves left: 9.28
+Current movecount: 8   Predicted moves left: 8.445
+Current movecount: 9   Predicted moves left: 7.58
+Current movecount: 10   Predicted moves left: 7.734
+Current movecount: 11   Predicted moves left: 7.023
+Current movecount: 12   Predicted moves left: 6.812
+Current movecount: 13   Predicted moves left: 7.023
+Current movecount: 14   Predicted moves left: 6.812
+Current movecount: 15   Predicted moves left: 6.406
+Current movecount: 16   Predicted moves left: 5.766
+Current movecount: 17   Predicted moves left: 6.11
+Current movecount: 18   Predicted moves left: 5.68
+Current movecount: 19   Predicted moves left: 4.945
+Current movecount: 20   Predicted moves left: 4.633
+Current movecount: 21   Predicted moves left: 3.564
+Current movecount: 22   Predicted moves left: 3.057
+Current movecount: 23   Predicted moves left: 1.954
+Current movecount: 24   Predicted moves left: 1.054
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: L' F D F' B' D' F D U' F R U R' F D F R' U L U' R U R F L'
+
+
+19
+Optimal solution: 20
+Scramble: F' D L D R' D' U F' L B U' F' U' F' L F D' L' R' F
+Current movecount: 1   Predicted moves left: 15.3
+Current movecount: 2   Predicted moves left: 13.35
+Current movecount: 3   Predicted moves left: 12.125
+Current movecount: 4   Predicted moves left: 11.375
+Current movecount: 5   Predicted moves left: 9.71
+Current movecount: 6   Predicted moves left: 9.47
+Current movecount: 7   Predicted moves left: 8.98
+Current movecount: 8   Predicted moves left: 7.97
+Current movecount: 9   Predicted moves left: 7.688
+Current movecount: 10   Predicted moves left: 7.547
+Current movecount: 11   Predicted moves left: 6.953
+Current movecount: 12   Predicted moves left: 6.344
+Current movecount: 13   Predicted moves left: 6.203
+Current movecount: 14   Predicted moves left: 5.82
+Current movecount: 15   Predicted moves left: 5.812
+Current movecount: 16   Predicted moves left: 5.273
+Current movecount: 17   Predicted moves left: 4.492
+Current movecount: 18   Predicted moves left: 3.623
+Current movecount: 19   Predicted moves left: 3.705
+Current movecount: 20   Predicted moves left: 3.623
+Current movecount: 21   Predicted moves left: 2.973
+Current movecount: 22   Predicted moves left: 1.955
+Current movecount: 23   Predicted moves left: 0.9976
+Current movecount: 24   Predicted moves left: 0.08203
+Solutions: D' D' B' D L' D R' D B F D B R L D F D' L' D L D F' D R'
+
+
+20
+Optimal solution: 20
+Scramble: D L' D B F' D' R D U R F' D B D L U F L' B' F'
+Current movecount: 1   Predicted moves left: 14.19
+Current movecount: 2   Predicted moves left: 12.64
+Current movecount: 3   Predicted moves left: 12.22
+Current movecount: 4   Predicted moves left: 10.516
+Current movecount: 5   Predicted moves left: 9.28
+Current movecount: 6   Predicted moves left: 9.016
+Current movecount: 7   Predicted moves left: 8.164
+Current movecount: 8   Predicted moves left: 8.19
+Current movecount: 9   Predicted moves left: 7.64
+Current movecount: 10   Predicted moves left: 7.39
+Current movecount: 11   Predicted moves left: 5.79
+Current movecount: 12   Predicted moves left: 5.47
+Current movecount: 13   Predicted moves left: 5.492
+Current movecount: 14   Predicted moves left: 4.906
+Current movecount: 15   Predicted moves left: 4.79
+Current movecount: 16   Predicted moves left: 4.42
+Current movecount: 17   Predicted moves left: 4.57
+Current movecount: 18   Predicted moves left: 4.32
+Current movecount: 19   Predicted moves left: 3.72
+Current movecount: 20   Predicted moves left: 3.955
+Current movecount: 21   Predicted moves left: 3.72
+Current movecount: 22   Predicted moves left: 3.424
+Current movecount: 23   Predicted moves left: 3.455
+Current movecount: 24   Predicted moves left: 3.424
+Current movecount: 25   Predicted moves left: 2.865
+Current movecount: 26   Predicted moves left: 1.956
+Current movecount: 27   Predicted moves left: 0.9976
+Current movecount: 28   Predicted moves left: 0.08203
+Solutions: F B D' D' B' R R U' R D' R' L' F' R' D' D' F F D F L' L' D' L F L' D L
+
+
+21
+Optimal solution: 20
+Scramble: U' L B' D F' R' R' D' F D' U' L' B U' F D' D' B R' F
+Current movecount: 1   Predicted moves left: 15.92
+Current movecount: 2   Predicted moves left: 15.64
+Current movecount: 3   Predicted moves left: 14.555
+Current movecount: 4   Predicted moves left: 13.445
+Current movecount: 5   Predicted moves left: 11.48
+Current movecount: 6   Predicted moves left: 10.54
+Current movecount: 7   Predicted moves left: 9.55
+Current movecount: 8   Predicted moves left: 8.59
+Current movecount: 9   Predicted moves left: 8.15
+Current movecount: 10   Predicted moves left: 8.32
+Current movecount: 11   Predicted moves left: 7.39
+Current movecount: 12   Predicted moves left: 7.367
+Current movecount: 13   Predicted moves left: 7.33
+Current movecount: 14   Predicted moves left: 6.797
+Current movecount: 15   Predicted moves left: 6.523
+Current movecount: 16   Predicted moves left: 6.273
+Current movecount: 17   Predicted moves left: 5.516
+Current movecount: 18   Predicted moves left: 5.15
+Current movecount: 19   Predicted moves left: 4.92
+Current movecount: 20   Predicted moves left: 4.18
+Current movecount: 21   Predicted moves left: 4.89
+Current movecount: 22   Predicted moves left: 4.0
+Current movecount: 23   Predicted moves left: 3.035
+Current movecount: 24   Predicted moves left: 1.946
+Current movecount: 25   Predicted moves left: 1.01
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: R B' L' B F D L B U' F L R L D L U L' F' U' F' U' F U F L' U
+
+
+22
+Optimal solution: 21
+Scramble: L R' R' U B U' R' D' R' F' U R' D' R' B' R' F L R' D U'
+Current movecount: 1   Predicted moves left: 15.0
+Current movecount: 2   Predicted moves left: 12.586
+Current movecount: 3   Predicted moves left: 11.54
+Current movecount: 4   Predicted moves left: 11.61
+Current movecount: 5   Predicted moves left: 10.25
+Current movecount: 6   Predicted moves left: 9.375
+Current movecount: 7   Predicted moves left: 8.734
+Current movecount: 8   Predicted moves left: 8.49
+Current movecount: 9   Predicted moves left: 8.164
+Current movecount: 10   Predicted moves left: 7.336
+Current movecount: 11   Predicted moves left: 7.4
+Current movecount: 12   Predicted moves left: 7.227
+Current movecount: 13   Predicted moves left: 6.594
+Current movecount: 14   Predicted moves left: 6.61
+Current movecount: 15   Predicted moves left: 6.445
+Current movecount: 16   Predicted moves left: 6.47
+Current movecount: 17   Predicted moves left: 5.33
+Current movecount: 18   Predicted moves left: 5.055
+Current movecount: 19   Predicted moves left: 4.977
+Current movecount: 20   Predicted moves left: 4.297
+Current movecount: 21   Predicted moves left: 3.277
+Current movecount: 22   Predicted moves left: 3.014
+Current movecount: 23   Predicted moves left: 1.9795
+Current movecount: 24   Predicted moves left: 0.998
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: L U F D' L U B' D R U F' L' U' B R' B' U L' B' L B L B R' U'
+
+
+23
+Optimal solution: 21
+Scramble: L' U' B' B' L' D' U F L F' R' D' L' F U' U' F D' D' B' U'
+Current movecount: 1   Predicted moves left: 15.266
+Current movecount: 2   Predicted moves left: 14.06
+Current movecount: 3   Predicted moves left: 12.27
+Current movecount: 4   Predicted moves left: 11.86
+Current movecount: 5   Predicted moves left: 11.41
+Current movecount: 6   Predicted moves left: 10.016
+Current movecount: 7   Predicted moves left: 9.2
+Current movecount: 8   Predicted moves left: 8.78
+Current movecount: 9   Predicted moves left: 7.82
+Current movecount: 10   Predicted moves left: 7.9
+Current movecount: 11   Predicted moves left: 7.406
+Current movecount: 12   Predicted moves left: 7.227
+Current movecount: 13   Predicted moves left: 7.25
+Current movecount: 14   Predicted moves left: 6.703
+Current movecount: 15   Predicted moves left: 6.188
+Current movecount: 16   Predicted moves left: 6.305
+Current movecount: 17   Predicted moves left: 6.03
+Current movecount: 18   Predicted moves left: 5.023
+Current movecount: 19   Predicted moves left: 4.023
+Current movecount: 20   Predicted moves left: 2.965
+Current movecount: 21   Predicted moves left: 2.113
+Current movecount: 22   Predicted moves left: 1.058
+Current movecount: 23   Predicted moves left: 0.08203
+Solutions: B D' B' R' B F' D' F L U F' L' F R' F' R F' R' F L R' B R
+
+
+24
+Optimal solution: 21
+Scramble: U B F' U' L' D U' L' D U R' U' B L' R D B U B' B' U'
+Current movecount: 1   Predicted moves left: 15.21
+Current movecount: 2   Predicted moves left: 15.05
+Current movecount: 3   Predicted moves left: 13.266
+Current movecount: 4   Predicted moves left: 11.84
+Current movecount: 5   Predicted moves left: 10.516
+Current movecount: 6   Predicted moves left: 10.09
+Current movecount: 7   Predicted moves left: 9.195
+Current movecount: 8   Predicted moves left: 8.39
+Current movecount: 9   Predicted moves left: 8.22
+Current movecount: 10   Predicted moves left: 7.688
+Current movecount: 11   Predicted moves left: 7.47
+Current movecount: 12   Predicted moves left: 6.89
+Current movecount: 13   Predicted moves left: 6.555
+Current movecount: 14   Predicted moves left: 6.17
+Current movecount: 15   Predicted moves left: 5.0
+Current movecount: 16   Predicted moves left: 4.28
+Current movecount: 17   Predicted moves left: 4.273
+Current movecount: 18   Predicted moves left: 4.28
+Current movecount: 19   Predicted moves left: 3.598
+Current movecount: 20   Predicted moves left: 3.287
+Current movecount: 21   Predicted moves left: 2.934
+Current movecount: 22   Predicted moves left: 2.88
+Current movecount: 23   Predicted moves left: 2.07
+Current movecount: 24   Predicted moves left: 1.006
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: U D' L R B R' D' L B D' F' R' D R F L L U' R' F D B R B' D'
+
+
+25
+Optimal solution: 20
+Scramble: U' R D' F' D' L' F' R D F L' L' R B L U' R' F' U' L
+Current movecount: 1   Predicted moves left: 15.45
+Current movecount: 2   Predicted moves left: 13.93
+Current movecount: 3   Predicted moves left: 12.19
+Current movecount: 4   Predicted moves left: 11.05
+Current movecount: 5   Predicted moves left: 10.44
+Current movecount: 6   Predicted moves left: 9.26
+Current movecount: 7   Predicted moves left: 8.4
+Current movecount: 8   Predicted moves left: 8.78
+Current movecount: 9   Predicted moves left: 8.4
+Current movecount: 10   Predicted moves left: 8.25
+Current movecount: 11   Predicted moves left: 7.547
+Current movecount: 12   Predicted moves left: 7.164
+Current movecount: 13   Predicted moves left: 7.266
+Current movecount: 14   Predicted moves left: 6.836
+Current movecount: 15   Predicted moves left: 6.344
+Current movecount: 16   Predicted moves left: 6.703
+Current movecount: 17   Predicted moves left: 6.04
+Current movecount: 18   Predicted moves left: 6.0
+Current movecount: 19   Predicted moves left: 5.53
+Current movecount: 20   Predicted moves left: 5.656
+Current movecount: 21   Predicted moves left: 5.047
+Current movecount: 22   Predicted moves left: 3.834
+Current movecount: 23   Predicted moves left: 2.951
+Current movecount: 24   Predicted moves left: 2.05
+Current movecount: 25   Predicted moves left: 1.07
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: R' B' L' D' B B L' U B L' B' U' L' D' R' B L' B' U' R' F R F' B L F
+
+
+26
+Optimal solution: 20
+Scramble: L D' R D B F' R' B D L D' R' D R' R' F' L' R' U' R
+Current movecount: 1   Predicted moves left: 14.555
+Current movecount: 2   Predicted moves left: 14.38
+Current movecount: 3   Predicted moves left: 12.53
+Current movecount: 4   Predicted moves left: 11.86
+Current movecount: 5   Predicted moves left: 10.695
+Current movecount: 6   Predicted moves left: 9.16
+Current movecount: 7   Predicted moves left: 9.38
+Current movecount: 8   Predicted moves left: 8.125
+Current movecount: 9   Predicted moves left: 7.562
+Current movecount: 10   Predicted moves left: 7.67
+Current movecount: 11   Predicted moves left: 6.85
+Current movecount: 12   Predicted moves left: 6.6
+Current movecount: 13   Predicted moves left: 6.664
+Current movecount: 14   Predicted moves left: 6.6
+Current movecount: 15   Predicted moves left: 6.312
+Current movecount: 16   Predicted moves left: 5.875
+Current movecount: 17   Predicted moves left: 5.508
+Current movecount: 18   Predicted moves left: 5.727
+Current movecount: 19   Predicted moves left: 5.023
+Current movecount: 20   Predicted moves left: 5.242
+Current movecount: 21   Predicted moves left: 4.125
+Current movecount: 22   Predicted moves left: 3.406
+Current movecount: 23   Predicted moves left: 2.791
+Current movecount: 24   Predicted moves left: 2.809
+Current movecount: 25   Predicted moves left: 2.791
+Current movecount: 26   Predicted moves left: 1.984
+Current movecount: 27   Predicted moves left: 1.054
+Current movecount: 28   Predicted moves left: 0.08203
+Solutions: F F R D' B' R B U' B B F' D L D L' B' L D L' F U' L D' L' B L D L'
+
+
+27
+Optimal solution: 21
+Scramble: B' D L' D' R U' B' L B F L U R B' D L F' D' D' U' U'
+Current movecount: 1   Predicted moves left: 15.91
+Current movecount: 2   Predicted moves left: 14.75
+Current movecount: 3   Predicted moves left: 13.37
+Current movecount: 4   Predicted moves left: 11.21
+Current movecount: 5   Predicted moves left: 11.01
+Current movecount: 6   Predicted moves left: 9.68
+Current movecount: 7   Predicted moves left: 8.71
+Current movecount: 8   Predicted moves left: 8.52
+Current movecount: 9   Predicted moves left: 8.586
+Current movecount: 10   Predicted moves left: 7.484
+Current movecount: 11   Predicted moves left: 7.57
+Current movecount: 12   Predicted moves left: 7.445
+Current movecount: 13   Predicted moves left: 7.312
+Current movecount: 14   Predicted moves left: 6.633
+Current movecount: 15   Predicted moves left: 6.29
+Current movecount: 16   Predicted moves left: 6.023
+Current movecount: 17   Predicted moves left: 5.727
+Current movecount: 18   Predicted moves left: 5.906
+Current movecount: 19   Predicted moves left: 5.727
+Current movecount: 20   Predicted moves left: 4.92
+Current movecount: 21   Predicted moves left: 4.03
+Current movecount: 22   Predicted moves left: 2.97
+Current movecount: 23   Predicted moves left: 1.959
+Current movecount: 24   Predicted moves left: 1.035
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: B U B' L' B F' U' U' D B B R' F' D' F' B R B R' B B R F B B
+
+
+28
+Optimal solution: 21
+Scramble: B R D' B R B' L D' F D' U' F D U' L B' R B F' R' U'
+Current movecount: 1   Predicted moves left: 16.61
+Current movecount: 2   Predicted moves left: 15.65
+Current movecount: 3   Predicted moves left: 14.234
+Current movecount: 4   Predicted moves left: 12.79
+Current movecount: 5   Predicted moves left: 10.79
+Current movecount: 6   Predicted moves left: 9.52
+Current movecount: 7   Predicted moves left: 8.96
+Current movecount: 8   Predicted moves left: 9.13
+Current movecount: 9   Predicted moves left: 8.19
+Current movecount: 10   Predicted moves left: 7.992
+Current movecount: 11   Predicted moves left: 7.68
+Current movecount: 12   Predicted moves left: 7.414
+Current movecount: 13   Predicted moves left: 6.54
+Current movecount: 14   Predicted moves left: 6.938
+Current movecount: 15   Predicted moves left: 6.54
+Current movecount: 16   Predicted moves left: 5.406
+Current movecount: 17   Predicted moves left: 6.133
+Current movecount: 18   Predicted moves left: 5.406
+Current movecount: 19   Predicted moves left: 5.242
+Current movecount: 20   Predicted moves left: 4.938
+Current movecount: 21   Predicted moves left: 3.883
+Current movecount: 22   Predicted moves left: 4.367
+Current movecount: 23   Predicted moves left: 3.242
+Current movecount: 24   Predicted moves left: 2.893
+Current movecount: 25   Predicted moves left: 1.948
+Current movecount: 26   Predicted moves left: 0.998
+Current movecount: 27   Predicted moves left: 0.08203
+Solutions: L B' B' U' F' R L F U R U F U B U' F' U B D' U' L' B L B' L U' U'
+
+
+29
+Optimal solution: 21
+Scramble: R' B D' F L F' U R' U R' D B' L F U F' D B' R B R'
+Current movecount: 1   Predicted moves left: 15.52
+Current movecount: 2   Predicted moves left: 14.74
+Current movecount: 3   Predicted moves left: 13.71
+Current movecount: 4   Predicted moves left: 12.51
+Current movecount: 5   Predicted moves left: 10.9
+Current movecount: 6   Predicted moves left: 10.14
+Current movecount: 7   Predicted moves left: 8.39
+Current movecount: 8   Predicted moves left: 8.69
+Current movecount: 9   Predicted moves left: 7.875
+Current movecount: 10   Predicted moves left: 7.195
+Current movecount: 11   Predicted moves left: 7.42
+Current movecount: 12   Predicted moves left: 7.195
+Current movecount: 13   Predicted moves left: 7.273
+Current movecount: 14   Predicted moves left: 6.93
+Current movecount: 15   Predicted moves left: 6.22
+Current movecount: 16   Predicted moves left: 5.734
+Current movecount: 17   Predicted moves left: 5.0
+Current movecount: 18   Predicted moves left: 5.22
+Current movecount: 19   Predicted moves left: 4.78
+Current movecount: 20   Predicted moves left: 4.273
+Current movecount: 21   Predicted moves left: 4.78
+Current movecount: 22   Predicted moves left: 4.273
+Current movecount: 23   Predicted moves left: 3.777
+Current movecount: 24   Predicted moves left: 3.201
+Current movecount: 25   Predicted moves left: 2.992
+Current movecount: 26   Predicted moves left: 3.045
+Current movecount: 27   Predicted moves left: 1.994
+Current movecount: 28   Predicted moves left: 0.9976
+Current movecount: 29   Predicted moves left: 0.08203
+Solutions: F U F L R U' R R D R' U D B' D' F D F L' L' F' B' L U L' U' L' B U L
+
+
+30
+Optimal solution: 21
+Scramble: D R' B R' R' U B' R B U F U B' F' D' B F D U F U'
+Current movecount: 1   Predicted moves left: 14.92
+Current movecount: 2   Predicted moves left: 13.23
+Current movecount: 3   Predicted moves left: 12.57
+Current movecount: 4   Predicted moves left: 10.766
+Current movecount: 5   Predicted moves left: 9.79
+Current movecount: 6   Predicted moves left: 9.46
+Current movecount: 7   Predicted moves left: 8.44
+Current movecount: 8   Predicted moves left: 7.89
+Current movecount: 9   Predicted moves left: 7.766
+Current movecount: 10   Predicted moves left: 7.32
+Current movecount: 11   Predicted moves left: 7.156
+Current movecount: 12   Predicted moves left: 6.703
+Current movecount: 13   Predicted moves left: 6.203
+Current movecount: 14   Predicted moves left: 6.47
+Current movecount: 15   Predicted moves left: 5.867
+Current movecount: 16   Predicted moves left: 4.977
+Current movecount: 17   Predicted moves left: 4.07
+Current movecount: 18   Predicted moves left: 2.953
+Current movecount: 19   Predicted moves left: 2.072
+Current movecount: 20   Predicted moves left: 1.006
+Current movecount: 21   Predicted moves left: 0.08203
+Solutions: D U' D B' D' D' B D' F' U U B U U B' R' U U B' R' D'
+
+
+31
+Optimal solution: 22
+Scramble: U' B' F D' U' R U B U' L R F' L' B' U R' D F' R' U' R U'
+Current movecount: 1   Predicted moves left: 16.34
+Current movecount: 2   Predicted moves left: 14.914
+Current movecount: 3   Predicted moves left: 14.53
+Current movecount: 4   Predicted moves left: 12.88
+Current movecount: 5   Predicted moves left: 11.25
+Current movecount: 6   Predicted moves left: 10.83
+Current movecount: 7   Predicted moves left: 9.305
+Current movecount: 8   Predicted moves left: 8.74
+Current movecount: 9   Predicted moves left: 8.25
+Current movecount: 10   Predicted moves left: 8.24
+Current movecount: 11   Predicted moves left: 7.336
+Current movecount: 12   Predicted moves left: 7.414
+Current movecount: 13   Predicted moves left: 6.53
+Current movecount: 14   Predicted moves left: 6.914
+Current movecount: 15   Predicted moves left: 6.484
+Current movecount: 16   Predicted moves left: 6.484
+Current movecount: 17   Predicted moves left: 6.445
+Current movecount: 18   Predicted moves left: 6.36
+Current movecount: 19   Predicted moves left: 5.844
+Current movecount: 20   Predicted moves left: 5.18
+Current movecount: 21   Predicted moves left: 5.195
+Current movecount: 22   Predicted moves left: 3.902
+Current movecount: 23   Predicted moves left: 4.28
+Current movecount: 24   Predicted moves left: 3.623
+Current movecount: 25   Predicted moves left: 2.92
+Current movecount: 26   Predicted moves left: 2.105
+Current movecount: 27   Predicted moves left: 1.064
+Current movecount: 28   Predicted moves left: 0.08203
+Solutions: B' B' L F' B U' B' L D' U F U' R' L F' L' U L F L' U B U' B' U' B' R B'
+
+
+32
+Optimal solution: 21
+Scramble: L' R F' L F' D' L' F' F' R' B' F L U B' U F U' R F' U'
+Current movecount: 1   Predicted moves left: 15.8
+Current movecount: 2   Predicted moves left: 15.17
+Current movecount: 3   Predicted moves left: 14.18
+Current movecount: 4   Predicted moves left: 11.74
+Current movecount: 5   Predicted moves left: 10.15
+Current movecount: 6   Predicted moves left: 9.38
+Current movecount: 7   Predicted moves left: 8.35
+Current movecount: 8   Predicted moves left: 8.1
+Current movecount: 9   Predicted moves left: 7.92
+Current movecount: 10   Predicted moves left: 7.11
+Current movecount: 11   Predicted moves left: 7.133
+Current movecount: 12   Predicted moves left: 6.805
+Current movecount: 13   Predicted moves left: 6.78
+Current movecount: 14   Predicted moves left: 6.39
+Current movecount: 15   Predicted moves left: 6.312
+Current movecount: 16   Predicted moves left: 6.03
+Current movecount: 17   Predicted moves left: 5.336
+Current movecount: 18   Predicted moves left: 5.188
+Current movecount: 19   Predicted moves left: 5.04
+Current movecount: 20   Predicted moves left: 4.5
+Current movecount: 21   Predicted moves left: 4.105
+Current movecount: 22   Predicted moves left: 3.494
+Current movecount: 23   Predicted moves left: 3.244
+Current movecount: 24   Predicted moves left: 2.986
+Current movecount: 25   Predicted moves left: 2.023
+Current movecount: 26   Predicted moves left: 1.035
+Current movecount: 27   Predicted moves left: 0.08203
+Solutions: L' U' B F R F' D' U B' R' D U' D F R F' D' R' D' F' B L B' F D F' B
+
+
+33
+Optimal solution: 21
+Scramble: B' L' L' D' F' U R' D' F' U L' L' F L' F D' F L' R D U'
+Current movecount: 1   Predicted moves left: 16.12
+Current movecount: 2   Predicted moves left: 14.95
+Current movecount: 3   Predicted moves left: 13.82
+Current movecount: 4   Predicted moves left: 12.484
+Current movecount: 5   Predicted moves left: 11.49
+Current movecount: 6   Predicted moves left: 9.984
+Current movecount: 7   Predicted moves left: 9.195
+Current movecount: 8   Predicted moves left: 8.8
+Current movecount: 9   Predicted moves left: 8.164
+Current movecount: 10   Predicted moves left: 7.914
+Current movecount: 11   Predicted moves left: 7.1
+Current movecount: 12   Predicted moves left: 7.22
+Current movecount: 13   Predicted moves left: 6.914
+Current movecount: 14   Predicted moves left: 6.46
+Current movecount: 15   Predicted moves left: 6.383
+Current movecount: 16   Predicted moves left: 5.484
+Current movecount: 17   Predicted moves left: 5.72
+Current movecount: 18   Predicted moves left: 5.383
+Current movecount: 19   Predicted moves left: 5.36
+Current movecount: 20   Predicted moves left: 4.633
+Current movecount: 21   Predicted moves left: 4.43
+Current movecount: 22   Predicted moves left: 4.094
+Current movecount: 23   Predicted moves left: 3.229
+Current movecount: 24   Predicted moves left: 2.861
+Current movecount: 25   Predicted moves left: 1.954
+Current movecount: 26   Predicted moves left: 1.054
+Current movecount: 27   Predicted moves left: 0.08203
+Solutions: R' D B' U' F D' U' B D L D U' L' U B' B' R R D R F' R B B R' F R
+
+
+34
+Optimal solution: 20
+Scramble: L B' D F U' B' D' F' U' L B' R' F' D' L' D L' R D' F'
+Current movecount: 1   Predicted moves left: 12.96
+Current movecount: 2   Predicted moves left: 10.695
+Current movecount: 3   Predicted moves left: 10.02
+Current movecount: 4   Predicted moves left: 9.95
+Current movecount: 5   Predicted moves left: 9.54
+Current movecount: 6   Predicted moves left: 8.72
+Current movecount: 7   Predicted moves left: 8.22
+Current movecount: 8   Predicted moves left: 8.22
+Current movecount: 9   Predicted moves left: 8.22
+Current movecount: 10   Predicted moves left: 7.977
+Current movecount: 11   Predicted moves left: 7.242
+Current movecount: 12   Predicted moves left: 7.04
+Current movecount: 13   Predicted moves left: 6.703
+Current movecount: 14   Predicted moves left: 5.86
+Current movecount: 15   Predicted moves left: 6.086
+Current movecount: 16   Predicted moves left: 5.86
+Current movecount: 17   Predicted moves left: 5.906
+Current movecount: 18   Predicted moves left: 5.43
+Current movecount: 19   Predicted moves left: 4.33
+Current movecount: 20   Predicted moves left: 3.754
+Current movecount: 21   Predicted moves left: 2.975
+Current movecount: 22   Predicted moves left: 2.05
+Current movecount: 23   Predicted moves left: 1.07
+Current movecount: 24   Predicted moves left: 0.08203
+Solutions: L B R R D F D' U L U' L' U B U' D' R' B R L' U' L U L F
+
+
+35
+Optimal solution: 20
+Scramble: R' F' U F D F' D' F U' R B U' B F' F' L U L F' U'
+Current movecount: 1   Predicted moves left: 14.87
+Current movecount: 2   Predicted moves left: 13.89
+Current movecount: 3   Predicted moves left: 12.625
+Current movecount: 4   Predicted moves left: 10.5
+Current movecount: 5   Predicted moves left: 10.13
+Current movecount: 6   Predicted moves left: 9.22
+Current movecount: 7   Predicted moves left: 8.45
+Current movecount: 8   Predicted moves left: 7.906
+Current movecount: 9   Predicted moves left: 7.344
+Current movecount: 10   Predicted moves left: 7.22
+Current movecount: 11   Predicted moves left: 7.344
+Current movecount: 12   Predicted moves left: 6.484
+Current movecount: 13   Predicted moves left: 5.406
+Current movecount: 14   Predicted moves left: 6.125
+Current movecount: 15   Predicted moves left: 5.406
+Current movecount: 16   Predicted moves left: 5.453
+Current movecount: 17   Predicted moves left: 4.867
+Current movecount: 18   Predicted moves left: 3.97
+Current movecount: 19   Predicted moves left: 2.947
+Current movecount: 20   Predicted moves left: 1.98
+Current movecount: 21   Predicted moves left: 1.054
+Current movecount: 22   Predicted moves left: 0.08203
+Solutions: F U L' F' U' F L' B' F' U L U' F' L' B' U L' U F U' L F'
+
+
+36
+Optimal solution: 21
+Scramble: B D' U L D' U F R' U' B' R' B' U B' R' U' U' L F' L U'
+Current movecount: 1   Predicted moves left: 15.766
+Current movecount: 2   Predicted moves left: 14.87
+Current movecount: 3   Predicted moves left: 13.55
+Current movecount: 4   Predicted moves left: 12.445
+Current movecount: 5   Predicted moves left: 11.26
+Current movecount: 6   Predicted moves left: 9.85
+Current movecount: 7   Predicted moves left: 9.16
+Current movecount: 8   Predicted moves left: 8.84
+Current movecount: 9   Predicted moves left: 8.125
+Current movecount: 10   Predicted moves left: 8.01
+Current movecount: 11   Predicted moves left: 7.766
+Current movecount: 12   Predicted moves left: 6.75
+Current movecount: 13   Predicted moves left: 6.42
+Current movecount: 14   Predicted moves left: 6.28
+Current movecount: 15   Predicted moves left: 6.094
+Current movecount: 16   Predicted moves left: 5.54
+Current movecount: 17   Predicted moves left: 5.72
+Current movecount: 18   Predicted moves left: 5.273
+Current movecount: 19   Predicted moves left: 4.96
+Current movecount: 20   Predicted moves left: 4.266
+Current movecount: 21   Predicted moves left: 3.74
+Current movecount: 22   Predicted moves left: 2.988
+Current movecount: 23   Predicted moves left: 1.943
+Current movecount: 24   Predicted moves left: 0.998
+Current movecount: 25   Predicted moves left: 0.08203
+Solutions: F' U' R' U' F' R' D F U F' D' U' R' L D L D' L' L' D F' D F D' U'
+
+
+37
+Optimal solution: 21
+Scramble: L' B' D' L' D' D' F U' U' B' F' R F' D' F D' B L F L U'
+Current movecount: 1   Predicted moves left: 15.94
+Current movecount: 2   Predicted moves left: 15.53
+Current movecount: 3   Predicted moves left: 14.59
+Current movecount: 4   Predicted moves left: 12.52
+Current movecount: 5   Predicted moves left: 11.06
+Current movecount: 6   Predicted moves left: 9.984
+Current movecount: 7   Predicted moves left: 9.3
+Current movecount: 8   Predicted moves left: 8.63
+Current movecount: 9   Predicted moves left: 8.43
+Current movecount: 10   Predicted moves left: 7.89
+Current movecount: 11   Predicted moves left: 7.4
+Current movecount: 12   Predicted moves left: 7.58
+Current movecount: 13   Predicted moves left: 7.047
+Current movecount: 14   Predicted moves left: 7.08
+Current movecount: 15   Predicted moves left: 6.797
+Current movecount: 16   Predicted moves left: 6.305
+Current movecount: 17   Predicted moves left: 6.125
+Current movecount: 18   Predicted moves left: 4.977
+Current movecount: 19   Predicted moves left: 3.906
+Current movecount: 20   Predicted moves left: 2.97
+Current movecount: 21   Predicted moves left: 2.008
+Current movecount: 22   Predicted moves left: 1.07
+Current movecount: 23   Predicted moves left: 0.08203
+Solutions: B' F' L' F D' R D D U F' B D U F D' B L' F' L B' D F F
+
+
+38
+Optimal solution: 20
+Scramble: F L F U' B' F' D' F' D F' R' F' L' U B D R' U L' R
+Current movecount: 1   Predicted moves left: 15.78
+Current movecount: 2   Predicted moves left: 14.08
+Current movecount: 3   Predicted moves left: 12.66
+Current movecount: 4   Predicted moves left: 10.49
+Current movecount: 5   Predicted moves left: 9.98
+Current movecount: 6   Predicted moves left: 9.445
+Current movecount: 7   Predicted moves left: 8.336
+Current movecount: 8   Predicted moves left: 8.42
+Current movecount: 9   Predicted moves left: 7.86
+Current movecount: 10   Predicted moves left: 6.93
+Current movecount: 11   Predicted moves left: 7.03
+Current movecount: 12   Predicted moves left: 6.85
+Current movecount: 13   Predicted moves left: 6.11
+Current movecount: 14   Predicted moves left: 5.656
+Current movecount: 15   Predicted moves left: 4.9
+Current movecount: 16   Predicted moves left: 4.1
+Current movecount: 17   Predicted moves left: 3.123
+Current movecount: 18   Predicted moves left: 2.11
+Current movecount: 19   Predicted moves left: 1.094
+Current movecount: 20   Predicted moves left: 0.08203
+Solutions: R' L U' R D' B' U' L F R F D' F D B F U F' L' F'
+
+
+39
+Optimal solution: 22
+Scramble: B F D' U' F' U' U' R U B F D' D' F L' R' D' R' D' R U' U'
+Current movecount: 1   Predicted moves left: 14.79
+Current movecount: 2   Predicted moves left: 14.18
+Current movecount: 3   Predicted moves left: 13.12
+Current movecount: 4   Predicted moves left: 11.87
+Current movecount: 5   Predicted moves left: 9.58
+Current movecount: 6   Predicted moves left: 9.55
+Current movecount: 7   Predicted moves left: 8.69
+Current movecount: 8   Predicted moves left: 8.15
+Current movecount: 9   Predicted moves left: 8.445
+Current movecount: 10   Predicted moves left: 7.89
+Current movecount: 11   Predicted moves left: 7.484
+Current movecount: 12   Predicted moves left: 7.375
+Current movecount: 13   Predicted moves left: 7.35
+Current movecount: 14   Predicted moves left: 7.195
+Current movecount: 15   Predicted moves left: 6.484
+Current movecount: 16   Predicted moves left: 5.234
+Current movecount: 17   Predicted moves left: 4.797
+Current movecount: 18   Predicted moves left: 5.234
+Current movecount: 19   Predicted moves left: 4.383
+Current movecount: 20   Predicted moves left: 5.062
+Current movecount: 21   Predicted moves left: 4.285
+Current movecount: 22   Predicted moves left: 3.717
+Current movecount: 23   Predicted moves left: 3.621
+Current movecount: 24   Predicted moves left: 3.717
+Current movecount: 25   Predicted moves left: 2.906
+Current movecount: 26   Predicted moves left: 1.933
+Current movecount: 27   Predicted moves left: 0.9976
+Current movecount: 28   Predicted moves left: 0.08105
+Solutions: U F B' U' L U' B B L' D' F D L' U B' F R' D L U L U' L' U B U L' U'
+
+
+40
+Optimal solution: 22
+Scramble: L' D U' F' D' B D U L B D' R B L U' R' B D F' D U' U'
+Current movecount: 1   Predicted moves left: 16.0
+Current movecount: 2   Predicted moves left: 15.31
+Current movecount: 3   Predicted moves left: 14.6
+Current movecount: 4   Predicted moves left: 12.42
+Current movecount: 5   Predicted moves left: 11.8
+Current movecount: 6   Predicted moves left: 10.41
+Current movecount: 7   Predicted moves left: 8.51
+Current movecount: 8   Predicted moves left: 9.195
+Current movecount: 9   Predicted moves left: 8.24
+Current movecount: 10   Predicted moves left: 8.3
+Current movecount: 11   Predicted moves left: 6.914
+Current movecount: 12   Predicted moves left: 6.03
+Current movecount: 13   Predicted moves left: 6.64
+Current movecount: 14   Predicted moves left: 6.03
+Current movecount: 15   Predicted moves left: 6.43
+Current movecount: 16   Predicted moves left: 6.008
+Current movecount: 17   Predicted moves left: 5.734
+Current movecount: 18   Predicted moves left: 5.18
+Current movecount: 19   Predicted moves left: 4.67
+Current movecount: 20   Predicted moves left: 4.086
+Current movecount: 21   Predicted moves left: 3.38
+Current movecount: 22   Predicted moves left: 3.35
+Current movecount: 23   Predicted moves left: 2.938
+Current movecount: 24   Predicted moves left: 1.959
+Current movecount: 25   Predicted moves left: 1.025
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: F' L U B R' D F' R' U' F U L U B' L' U' L U' F U' R' U R U F' L'
+
+
+41
+Optimal solution: 21
+Scramble: F D B' B' D F R B R' F U' L F' D' R U' R' F' D L' U'
+Current movecount: 1   Predicted moves left: 16.03
+Current movecount: 2   Predicted moves left: 14.836
+Current movecount: 3   Predicted moves left: 13.34
+Current movecount: 4   Predicted moves left: 11.93
+Current movecount: 5   Predicted moves left: 10.99
+Current movecount: 6   Predicted moves left: 10.06
+Current movecount: 7   Predicted moves left: 9.05
+Current movecount: 8   Predicted moves left: 8.55
+Current movecount: 9   Predicted moves left: 8.164
+Current movecount: 10   Predicted moves left: 7.25
+Current movecount: 11   Predicted moves left: 7.36
+Current movecount: 12   Predicted moves left: 7.125
+Current movecount: 13   Predicted moves left: 6.734
+Current movecount: 14   Predicted moves left: 6.555
+Current movecount: 15   Predicted moves left: 6.04
+Current movecount: 16   Predicted moves left: 5.797
+Current movecount: 17   Predicted moves left: 5.68
+Current movecount: 18   Predicted moves left: 4.953
+Current movecount: 19   Predicted moves left: 5.0
+Current movecount: 20   Predicted moves left: 4.414
+Current movecount: 21   Predicted moves left: 4.25
+Current movecount: 22   Predicted moves left: 3.38
+Current movecount: 23   Predicted moves left: 3.35
+Current movecount: 24   Predicted moves left: 2.94
+Current movecount: 25   Predicted moves left: 2.047
+Current movecount: 26   Predicted moves left: 1.058
+Current movecount: 27   Predicted moves left: 0.08203
+Solutions: R R U B' R U F D' U R F U' B' D' D' B' D' R' B' D' B D L' D L D' R
+
+
+42
+Optimal solution: 20
+Scramble: L B' U' R D' L' U' B D U F U F L D F' L R' B' U'
+Current movecount: 1   Predicted moves left: 14.195
+Current movecount: 2   Predicted moves left: 13.734
+Current movecount: 3   Predicted moves left: 11.16
+Current movecount: 4   Predicted moves left: 10.15
+Current movecount: 5   Predicted moves left: 8.29
+Current movecount: 6   Predicted moves left: 8.35
+Current movecount: 7   Predicted moves left: 8.29
+Current movecount: 8   Predicted moves left: 7.742
+Current movecount: 9   Predicted moves left: 7.594
+Current movecount: 10   Predicted moves left: 7.586
+Current movecount: 11   Predicted moves left: 7.227
+Current movecount: 12   Predicted moves left: 6.688
+Current movecount: 13   Predicted moves left: 6.6
+Current movecount: 14   Predicted moves left: 6.07
+Current movecount: 15   Predicted moves left: 5.82
+Current movecount: 16   Predicted moves left: 5.508
+Current movecount: 17   Predicted moves left: 4.438
+Current movecount: 18   Predicted moves left: 3.762
+Current movecount: 19   Predicted moves left: 3.025
+Current movecount: 20   Predicted moves left: 2.072
+Current movecount: 21   Predicted moves left: 1.094
+Current movecount: 22   Predicted moves left: 0.08203
+Solutions: U' R B' B' F R' B R D' F' L D D L' D' F' D' F R' U' R F'
+
+
+43
+Optimal solution: 21
+Scramble: U R F D F' L' U' F' L' B' U' L B U' U' R' D U F' R' U'
+Current movecount: 1   Predicted moves left: 11.87
+Current movecount: 2   Predicted moves left: 12.2
+Current movecount: 3   Predicted moves left: 10.82
+Current movecount: 4   Predicted moves left: 10.266
+Current movecount: 5   Predicted moves left: 9.74
+Current movecount: 6   Predicted moves left: 8.46
+Current movecount: 7   Predicted moves left: 8.16
+Current movecount: 8   Predicted moves left: 7.242
+Current movecount: 9   Predicted moves left: 7.54
+Current movecount: 10   Predicted moves left: 6.67
+Current movecount: 11   Predicted moves left: 6.812
+Current movecount: 12   Predicted moves left: 6.406
+Current movecount: 13   Predicted moves left: 5.9
+Current movecount: 14   Predicted moves left: 5.22
+Current movecount: 15   Predicted moves left: 5.117
+Current movecount: 16   Predicted moves left: 4.47
+Current movecount: 17   Predicted moves left: 3.82
+Current movecount: 18   Predicted moves left: 2.936
+Current movecount: 19   Predicted moves left: 1.954
+Current movecount: 20   Predicted moves left: 1.035
+Current movecount: 21   Predicted moves left: 0.08203
+Solutions: D' B L' D' B' R B U' F' R' D' L' U B' F U R B' R' F' B
+
+
+44
+Optimal solution: 22
+Scramble: F L' R D B' R' D' L' L' F D' L' F' U' R' B D' U' L' F R' U'
+Current movecount: 1   Predicted moves left: 15.766
+Current movecount: 2   Predicted moves left: 15.13
+Current movecount: 3   Predicted moves left: 13.67
+Current movecount: 4   Predicted moves left: 10.01
+Current movecount: 5   Predicted moves left: 10.91
+Current movecount: 6   Predicted moves left: 9.03
+Current movecount: 7   Predicted moves left: 8.89
+Current movecount: 8   Predicted moves left: 8.12
+Current movecount: 9   Predicted moves left: 7.688
+Current movecount: 10   Predicted moves left: 7.61
+Current movecount: 11   Predicted moves left: 7.297
+Current movecount: 12   Predicted moves left: 7.477
+Current movecount: 13   Predicted moves left: 6.945
+Current movecount: 14   Predicted moves left: 6.695
+Current movecount: 15   Predicted moves left: 6.54
+Current movecount: 16   Predicted moves left: 6.4
+Current movecount: 17   Predicted moves left: 6.29
+Current movecount: 18   Predicted moves left: 6.156
+Current movecount: 19   Predicted moves left: 5.97
+Current movecount: 20   Predicted moves left: 4.85
+Current movecount: 21   Predicted moves left: 5.07
+Current movecount: 22   Predicted moves left: 3.898
+Current movecount: 23   Predicted moves left: 2.926
+Current movecount: 24   Predicted moves left: 2.014
+Current movecount: 25   Predicted moves left: 1.07
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: U R' F' D R' L' F D' U L U R R D R D' L B' L' F R F' R' F' D' F
+
+
+45
+Optimal solution: 20
+Scramble: U R' B' L D B' D U' B' R' F D B' F D R U' U' B U
+Current movecount: 1   Predicted moves left: 15.4
+Current movecount: 2   Predicted moves left: 14.16
+Current movecount: 3   Predicted moves left: 12.41
+Current movecount: 4   Predicted moves left: 11.305
+Current movecount: 5   Predicted moves left: 10.42
+Current movecount: 6   Predicted moves left: 10.055
+Current movecount: 7   Predicted moves left: 8.81
+Current movecount: 8   Predicted moves left: 8.29
+Current movecount: 9   Predicted moves left: 7.625
+Current movecount: 10   Predicted moves left: 7.93
+Current movecount: 11   Predicted moves left: 7.625
+Current movecount: 12   Predicted moves left: 6.977
+Current movecount: 13   Predicted moves left: 6.727
+Current movecount: 14   Predicted moves left: 6.945
+Current movecount: 15   Predicted moves left: 6.57
+Current movecount: 16   Predicted moves left: 6.65
+Current movecount: 17   Predicted moves left: 6.4
+Current movecount: 18   Predicted moves left: 6.055
+Current movecount: 19   Predicted moves left: 5.203
+Current movecount: 20   Predicted moves left: 5.227
+Current movecount: 21   Predicted moves left: 4.92
+Current movecount: 22   Predicted moves left: 4.17
+Current movecount: 23   Predicted moves left: 3.008
+Current movecount: 24   Predicted moves left: 1.966
+Current movecount: 25   Predicted moves left: 1.054
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: D R D R' F D L' L' U F' U B' D' L U' D' L' U B U' B' L B D' U L'
+
+
+46
+Optimal solution: 20
+Scramble: R' U L R' B F L' D L' B U' R' B D' F' F' D F' L' D
+Current movecount: 1   Predicted moves left: 15.28
+Current movecount: 2   Predicted moves left: 13.69
+Current movecount: 3   Predicted moves left: 12.734
+Current movecount: 4   Predicted moves left: 11.01
+Current movecount: 5   Predicted moves left: 10.1
+Current movecount: 6   Predicted moves left: 9.805
+Current movecount: 7   Predicted moves left: 8.49
+Current movecount: 8   Predicted moves left: 8.62
+Current movecount: 9   Predicted moves left: 7.914
+Current movecount: 10   Predicted moves left: 7.65
+Current movecount: 11   Predicted moves left: 7.64
+Current movecount: 12   Predicted moves left: 7.07
+Current movecount: 13   Predicted moves left: 7.0
+Current movecount: 14   Predicted moves left: 6.547
+Current movecount: 15   Predicted moves left: 5.14
+Current movecount: 16   Predicted moves left: 5.42
+Current movecount: 17   Predicted moves left: 5.016
+Current movecount: 18   Predicted moves left: 4.9
+Current movecount: 19   Predicted moves left: 4.68
+Current movecount: 20   Predicted moves left: 4.1
+Current movecount: 21   Predicted moves left: 3.988
+Current movecount: 22   Predicted moves left: 3.424
+Current movecount: 23   Predicted moves left: 3.064
+Current movecount: 24   Predicted moves left: 1.988
+Current movecount: 25   Predicted moves left: 1.01
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: U L L U R D L U' B D B' L' U D L' D U F' U L R' D F D' R L'
+
+
+47
+Optimal solution: 20
+Scramble: D B' F' R' D' L' U B U' R F U' U' R' U L' D' L F' F'
+Current movecount: 1   Predicted moves left: 15.375
+Current movecount: 2   Predicted moves left: 13.77
+Current movecount: 3   Predicted moves left: 12.1
+Current movecount: 4   Predicted moves left: 11.34
+Current movecount: 5   Predicted moves left: 9.59
+Current movecount: 6   Predicted moves left: 8.92
+Current movecount: 7   Predicted moves left: 8.516
+Current movecount: 8   Predicted moves left: 8.234
+Current movecount: 9   Predicted moves left: 8.1
+Current movecount: 10   Predicted moves left: 7.39
+Current movecount: 11   Predicted moves left: 7.625
+Current movecount: 12   Predicted moves left: 7.305
+Current movecount: 13   Predicted moves left: 7.023
+Current movecount: 14   Predicted moves left: 6.92
+Current movecount: 15   Predicted moves left: 6.055
+Current movecount: 16   Predicted moves left: 6.22
+Current movecount: 17   Predicted moves left: 5.992
+Current movecount: 18   Predicted moves left: 5.547
+Current movecount: 19   Predicted moves left: 4.86
+Current movecount: 20   Predicted moves left: 4.22
+Current movecount: 21   Predicted moves left: 4.227
+Current movecount: 22   Predicted moves left: 3.791
+Current movecount: 23   Predicted moves left: 2.914
+Current movecount: 24   Predicted moves left: 1.978
+Current movecount: 25   Predicted moves left: 0.9976
+Current movecount: 26   Predicted moves left: 0.08203
+Solutions: B R' B D R' B' L B U' B' R' B' R D' F' B' D' F D' L' D' F' D' D' R' L
+
+
+48
+Optimal solution: 21
+Scramble: L U B D F' F' U' R' D F' U' F' D' U' B L F U' U' L' U'
+Current movecount: 1   Predicted moves left: 13.54
+Current movecount: 2   Predicted moves left: 13.234
+Current movecount: 3   Predicted moves left: 11.28
+Current movecount: 4   Predicted moves left: 10.59
+Current movecount: 5   Predicted moves left: 10.45
+Current movecount: 6   Predicted moves left: 8.766
+Current movecount: 7   Predicted moves left: 8.41
+Current movecount: 8   Predicted moves left: 8.38
+Current movecount: 9   Predicted moves left: 7.53
+Current movecount: 10   Predicted moves left: 7.797
+Current movecount: 11   Predicted moves left: 7.11
+Current movecount: 12   Predicted moves left: 6.58
+Current movecount: 13   Predicted moves left: 6.094
+Current movecount: 14   Predicted moves left: 5.6
+Current movecount: 15   Predicted moves left: 5.094
+Current movecount: 16   Predicted moves left: 4.516
+Current movecount: 17   Predicted moves left: 3.963
+Current movecount: 18   Predicted moves left: 2.941
+Current movecount: 19   Predicted moves left: 1.953
+Current movecount: 20   Predicted moves left: 1.01
+Current movecount: 21   Predicted moves left: 0.08203
+Solutions: L' R' D F U' R' D U R U' R' U' B' D' R U R B' L R' U
+
+
+49
+Optimal solution: 21
+Scramble: R D' U' R' U' R' B D' L' F' U B D' U F' L' U L R B' U'
+Current movecount: 1   Predicted moves left: 15.83
+Current movecount: 2   Predicted moves left: 14.62
+Current movecount: 3   Predicted moves left: 13.33
+Current movecount: 4   Predicted moves left: 11.234
+Current movecount: 5   Predicted moves left: 11.11
+Current movecount: 6   Predicted moves left: 9.67
+Current movecount: 7   Predicted moves left: 8.99
+Current movecount: 8   Predicted moves left: 8.81
+Current movecount: 9   Predicted moves left: 7.984
+Current movecount: 10   Predicted moves left: 7.875
+Current movecount: 11   Predicted moves left: 6.844
+Current movecount: 12   Predicted moves left: 6.75
+Current movecount: 13   Predicted moves left: 6.71
+Current movecount: 14   Predicted moves left: 6.656
+Current movecount: 15   Predicted moves left: 6.54
+Current movecount: 16   Predicted moves left: 5.72
+Current movecount: 17   Predicted moves left: 5.344
+Current movecount: 18   Predicted moves left: 4.977
+Current movecount: 19   Predicted moves left: 3.822
+Current movecount: 20   Predicted moves left: 2.951
+Current movecount: 21   Predicted moves left: 2.014
+Current movecount: 22   Predicted moves left: 1.035
+Current movecount: 23   Predicted moves left: 0.08203
+Solutions: R B U' F U' B B R' B' U' D R' D' L D' L' R D' R' D F D' B
+
+
+226
+5.65
+[ 0  0  0  0  0  2  2  2  2  2  2  2  2  2  2  2  4  4  4  4  4  4  4  4
+  4  4  4  4  4  4  6  6  6  6  6  6  6  6  6  6  6  6  6  6  6  8  8  8
+ 10 24]
+
+Process finished with exit code 0
