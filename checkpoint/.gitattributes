@@ -1,2 +1,0 @@
-$[[:space:]]git[[:space:]]lfs[[:space:]]track[[:space:]] filter=lfs diff=lfs merge=lfs -text
-weights-2502.ckpt.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
