@@ -1,7 +1,7 @@
 # Cube
 Solving a Rubik's Cube with attention-based neural networks
 
-This project creates, trains and evaluates different neural network models that can be used to solve the Rubik's Cube.
+This project creates, trains and evaluates different neural network models that can be used to solve the Rubik's Cube. Further information about everything done in this project can be found in the file "Cube.pdf".
 
 The resources provided here include:
 * The tensorflow code to create the neural network models.
